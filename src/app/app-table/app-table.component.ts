@@ -2,7 +2,9 @@ import { AfterViewInit, Component, Input, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
-import { AppTableDataSource, AppTableItem } from './app-table-datasource';
+import { AppTableItem } from '../data/data-model';
+import { AppTableDataSource } from '../data/app-table-datasource';
+
 
 @Component({
   selector: 'app-app-table',

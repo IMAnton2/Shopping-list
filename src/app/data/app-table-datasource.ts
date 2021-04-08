@@ -3,12 +3,10 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';
+import { AppTableItem } from './data-model';
 
 // TODO: Replace this with your own data model type
-export interface AppTableItem {
-  name: string;
-  id: number;
-}
+
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: AppTableItem[] = [
